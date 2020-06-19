@@ -1,9 +1,8 @@
 import React from 'react';
-
-// import { Container } from './styles';
+import { Title } from './styles';
 
 function Main() {
-  return <div>Main</div>;
+  return <Title error={false}>Main</Title>;
 }
 
 export default Main;
